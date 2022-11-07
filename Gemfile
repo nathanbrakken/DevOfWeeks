@@ -15,7 +15,7 @@ gem 'sass-rails', '~> 5'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
 # Clean material design framework https://github.com/mkhairi/materialize-sass
-gem 'materialize-sass', '~> 1.0.0'
+gem 'materialize-sass', '~> 0.100.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

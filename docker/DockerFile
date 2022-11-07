@@ -9,6 +9,7 @@ RUN npm install -g eslint babel-eslint \
 # Set an environment variable where the Rails app is installed to inside of Docker image
 ENV RAILS_ROOT /var/www/app
 RUN mkdir -p $RAILS_ROOT
+RUN apk add --no-cache python2
 # RUN mkdir -p $RAILS_ROOT/tmp/pids
 # Set working directory
 WORKDIR $RAILS_ROOT
